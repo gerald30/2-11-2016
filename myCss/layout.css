@@ -1,0 +1,25 @@
+
+
+div.container{
+    border-radius: 0px;
+
+}
+
+
+div div.header1{
+    background-color: #333333;
+    width: 100%;
+    color: #fff;
+    opacity: .95;
+
+}
+div.text-center{
+
+   margin-top: 5%;
+    margin-bottom: 5%;
+    opacity: .9;
+}
+
+div > h3{
+    margin-bottom: 10%;
+}

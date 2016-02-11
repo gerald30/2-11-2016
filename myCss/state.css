@@ -1,0 +1,84 @@
+  div.down{
+        margin-top: 50px;
+        height: 800px;
+    }
+@media(min-width:768px) {
+    body {
+        padding-top: 20px;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 6px 0;
+    }
+    nav div div a img{
+        width: 60px;
+        height: auto;
+    }
+
+}
+@media screen and (max-width: 890px) {
+    nav div div a img{
+        margin-top: 5px;
+        width: 50px;
+        height: auto;
+    }
+    div.formInput {
+        padding-top: 20px;
+    }
+    div div.jumbotron{
+        margin-top: 20px;
+    }
+    h1{
+    display: none;
+    }
+    h3{
+        position: relative;
+       float: left;
+       margin: auto;
+       padding: auto;
+    }
+    div.row{
+        position: relative;
+    }
+
+}
+@media screen and (max-width: 478px){
+
+
+    nav div div a img{
+        width: 50px;
+        height: auto;
+    }
+    h3{
+     
+      margin: 30px; 
+    }
+      h1.selection{
+    display: none;
+  }
+  div div ul.buttonHolder{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+   div div div#buttonH {
+    position: relative;
+    margin: 0%;
+    width: auto;
+  }
+  footer section{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+  }
+ footer section ul{
+    float: left;
+    width: 350px;
+    height: auto;
+    
+  }
+
+}

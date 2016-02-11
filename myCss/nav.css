@@ -1,0 +1,23 @@
+@import "base.css";
+@import "state.css";
+
+nav ul li{
+    display: inline-block;
+    float: left;
+    padding: 5px;
+}
+nav ul li a{
+    color: #afd9ee;
+    font-size: 20px;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #ac2925;
+}
+nav.navbar{
+    background-color: #b92c28;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
